@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+
+font-family: Flaticon;
+font-style: normal;
+
+}
+.flaticon-chart12:before {
+	content: "\e000";
+	font-size:38px;
+}
+.flaticon-dataanalytics1:before {
+	content: "\e001";
+	font-size:30px;
+}
+.flaticon-education14:before {
+	content: "\e002";
+	margin-left: 3px;
+	font-size:35px;
+}
+.flaticon-chart12_:before {
+	content: "\e000";
+	font-size:22px;
+}
+.flaticon-dataanalytics1_:before {
+	content: "\e001";
+	font-size:15px;
+}
+.flaticon-education14_:before {
+	content: "\e002";
+	font-size: 20px;
+}

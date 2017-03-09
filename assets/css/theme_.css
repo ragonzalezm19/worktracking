@@ -1,0 +1,157 @@
+body, .main-container, .footer, .main-navigation, ul.main-navigation-menu > li > ul.sub-menu, .navigation-small ul.main-navigation-menu > li > ul.sub-menu  {
+	background-color: #00736B !important;
+}
+.layout-boxed header, .layout-boxed .main-container, .layout-boxed .footer {
+
+		border-left-color:#455F77;
+		border-right-color:#455F77;
+}
+.navbar-inverse {
+	background: #00403C; 
+	/*background: -moz-linear-gradient(top, #466078 0%, #334c68 100%); */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#466078), color-stop(100%,#334c68));*/
+	border-color:#2B394A;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .nav > li > a {
+	color: #41C8BF;
+}
+.navbar-inverse .navbar-brand i, .navbar-inverse .navbar-brand:hover i {
+	color: #ffffff;
+}
+
+.navbar-inverse .nav > li > a {
+    color: #A7B4D1;
+    text-shadow: 0 1px 0 #000000;
+}
+.navbar-inverse .nav > li.current-user > a {
+	color: #ffffff !important;
+}
+.navbar-inverse .nav > li.current-user > a i {
+	display: inline-block;
+	text-align: center;
+	width: 1.25em;
+	color:#ffffff !important;
+	font-size: 12px;
+}
+.navbar-inverse .nav > li:hover > a, .navbar-inverse .nav > li:active > a , .navbar-inverse .nav > li:focus > a{
+	color: #ffffff;
+	background: #41C8BF;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+	background: #41C8BF;
+	color:#ffffff;
+}
+
+.navbar-tools .dropdown-menu li .dropdown-menu-title {
+	background: #2B394A;
+	color: #ffffff;
+}
+.navbar-inverse .btn-navbar {
+	background-color: #2B394A;
+	background: -moz-linear-gradient(top, #34485e 0%, #283b52 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#34485e), color-stop(100%,#283b52)); /* webkit */
+}
+
+.nav > li.dropdown .dropdown-toggle .badge {
+	background-color: #D9534F;
+	border: none;
+}
+.navbar-toggle {
+	background-color: #00403C;
+	color:#D9D9D9;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #00403C;
+	-moz-box-shadow: 0 0 15px #fff;
+	-webkit-box-shadow: 0 0 15px #fff;
+	box-shadow: 0px 0px 15px #fff;
+	
+}
+.navbar-toggle span{
+	color:#D9D9D9;	
+}
+
+ul.main-navigation-menu > li a {
+	border-bottom-color: #26384C;
+	border-top-color: #6381A1;
+	color: #FFFFFF;
+}
+ul.main-navigation-menu > li a > i {
+	color: #FFFFFF;
+	font-weight: normal;
+}
+ul.main-navigation-menu > li.active > a {
+	background: #41C8BF !important;
+	border-top: none !important;
+	color: #fff;
+}
+ul.main-navigation-menu > li.active > a .selected:before {
+	color: #41C8BF !important;
+}
+ul.main-navigation-menu > li.active > a i {
+	color: #fff;
+}
+ul.main-navigation-menu > li.open > a, ul.main-navigation-menu > li > a:hover, ul.main-navigation-menu > li:hover > a {
+	background-color: #41C8BF;
+	color: #FFFFFF;
+}
+ul.main-navigation-menu > li.open > a > i, ul.main-navigation-menu > li > a:hover > i, ul.main-navigation-menu > li:hover > a > i {
+	background-color: #41C8BF;
+	color: #FFFFFF;
+}
+.navigation-toggler, .go-top {
+	background-color: #00BFB3 !important;
+	color: #FFFFFF;
+}
+.navigation-toggler:hover i:first-child, .go-top:hover {
+	color: #A7B4D1;
+}
+.navigation-toggler:hover i:last-child {
+	color: #5A7CA3;
+}
+.navigation-small .navigation-toggler:hover i:first-child {
+	color: #5A7CA3;
+}
+.navigation-small .navigation-toggler:hover i:last-child {
+	color: #A7B4D1;
+}
+ul.main-navigation-menu li > ul.sub-menu > li.open > a, ul.main-navigation-menu li > ul.sub-menu > li.active > a, ul.main-navigation-menu li > ul.sub-menu > li > a:hover {
+	color: #ffffff !important;
+	background: #41C8BF !important;
+}
+.breadcrumb i {
+	color: #00403C;
+}
+.breadcrumb a {
+	color: #00403C;
+}
+.footer-fixed .footer {
+	background: rgba(43, 57, 74, 0.9); !important;
+	border-top-color: #455F77;	
+}
+.footer-inner {
+	color: #ffffff;
+}
+.footer-inner > a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.main-content .container {
+	border-left: none;
+	border-bottom: none;
+}
+@media (max-width: 767px) {
+	.navbar-inverse {
+		background: #00403C !important;
+	}
+	.navbar-tools {
+		background: #00403C;
+		/*border-color:#2B394A;*/
+		/*background: rgba(43, 57, 74, 0.9);*/
+		border-top-color: #00403C;
+	}
+	.navbar-header {
+		border-top-color: #00403C;
+	}
+}

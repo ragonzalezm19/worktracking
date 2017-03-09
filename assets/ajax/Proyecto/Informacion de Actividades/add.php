@@ -1,0 +1,15 @@
+<?php 
+	// Timezone
+	date_default_timezone_set('America/Caracas');
+
+	require '../../../database/insertar.php';
+
+	$nombre      = $_POST['nombre'];
+	$descripcion = $_POST['descripcion'];
+	$costo       = $_POST['costo'];
+	$cliente_id  = $_POST['cliente_id'];
+	$creado      = date('Y-m-d H:i:s');
+	$editado     = date('Y-m-d H:i:s');
+
+	addProyecto($nombre, $descripcion, $costo, $cliente_id ,$creado, $editado);
+	echo json_encode(0);
